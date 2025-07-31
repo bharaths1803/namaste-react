@@ -1,0 +1,1 @@
+export const resImage = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/3/5e6f0482-5bb8-42b1-a405-8719e9cbca72_1065004.jpg"
