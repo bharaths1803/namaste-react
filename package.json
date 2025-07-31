@@ -5,6 +5,7 @@
   "scripts": {
     "test": "jest"
   },
+  "type": "module",
   "author": "Bharath S",
   "license": "ISC",
   "dependencies": {
