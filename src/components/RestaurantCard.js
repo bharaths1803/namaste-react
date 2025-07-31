@@ -3,7 +3,6 @@ import { resImage } from "../utils/constants";
 const RestaurantCard = (props) => {
   const {resData} = props;
    const {
-    cloudinaryImageId,
     name,
     avgRating,
     cuisines,
