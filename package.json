@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "NAmaste react coursee",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
-  "type": "module",
   "author": "Bharath S",
   "license": "ISC",
   "dependencies": {

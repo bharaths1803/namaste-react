@@ -1,4 +1,4 @@
-3601
+3603
 112C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\core\test\fixtures\custom-targets\package.json133984282939386025 0
 110C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\_\_iterable_to_array_limit\package.json133984283065654506 0
 96C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\esm\_apply_decs_2203_r.js133984282824203696 0
@@ -24,7 +24,7 @@
 75C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\lmdb\dependencies133984298108270874 1
 101C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\reporter-cli\lib\CLIReporter.js.map133984282711538335 0
 86C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\reporter-cli\LICENSE133984282447339505 0
-51C:\Users\User\OneDrive\Desktop\namaste-react\App.js133984297176565831 0
+51C:\Users\User\OneDrive\Desktop\namaste-react\App.js133984322671782177 0
 89C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\caniuse-lite\data\regions\NU.js133984283217804508 0
 114C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\esm\_class_static_private_field_spec_get.js133984282866413288 0
 113C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\react\cjs\react-jsx-runtime.react-server.development.js133984293690992179 0
@@ -47,14 +47,14 @@
 119C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\workers\test\integration\workerfarm\reverse-handle.js133984282724039809 0
 97C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\cjs\_apply_decs_2203_r.cjs133984282469835396 0
 109C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.c133984282743694146 0
-49C:\Users\User\OneDrive\Desktop\namaste-react\dist133984307250336112 1
+49C:\Users\User\OneDrive\Desktop\namaste-react\dist133984322768604779 1
 89C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\caniuse-lite\data\regions\RU.js133984283259430583 0
 54C:\Users\User\OneDrive\Desktop\namaste-react\index.css133984235768664746 0
 89C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\type-fest\source\utilities.d.ts133984282738106057 0
 100C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\transformer-babel\src\constants.js133984282639251206 0
 89C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\caniuse-lite\data\regions\GI.js133984283083146869 0
 122C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\_\_class_static_private_field_spec_get\package.json133984283033685403 0
-55C:\Users\User\OneDrive\Desktop\namaste-react\index.html133984296770913452 0
+55C:\Users\User\OneDrive\Desktop\namaste-react\index.html133984320402593318 0
 57C:\Users\User\OneDrive\Desktop\namaste-react\node_modules133984296886000262 1
 85C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\packager-js\LICENSE133984282442008051 0
 104C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\caniuse-lite\data\features\css-first-letter.js133984282905806426 0
@@ -2651,7 +2651,7 @@
 115C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\src\_class_static_private_field_spec_set.mjs133984283164156298 0
 89C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\src\_construct.mjs133984283165813355 0
 88C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\src\_defaults.mjs133984283167974375 0
-60C:\Users\User\OneDrive\Desktop\namaste-react\dist\index.html133984291773380304 0
+60C:\Users\User\OneDrive\Desktop\namaste-react\dist\index.html133984322768350275 0
 92C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\graph\lib\AdjacencyList.js133984282562979105 0
 108C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\src\_define_enumerable_properties.mjs133984283168497961 0
 83C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@swc\helpers\src\_get.mjs133984283171312687 0
@@ -3295,6 +3295,7 @@
 109C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\package-manager\src\MockPackageInstaller.js133984282696373334 0
 100C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\packager-js\lib\ESMOutputFormat.js133984282614969281 0
 103C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\packager-js\lib\GlobalOutputFormat.js133984282629798359 0
+75C:\Users\User\OneDrive\Desktop\namaste-react\dist\namaste-react.cb65f72e.js133984322766941362 0
 92C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\packager-js\lib\helpers.js133984282646436391 0
 92C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\core\lib\PackagerRunner.js133984282832823255 0
 87C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\packager-html\LICENSE133984282442130395 0
@@ -3529,6 +3530,7 @@
 81C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\core\lib\public133984298302684664 1
 83C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\core\lib\requests133984298312223311 1
 92C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\core\lib\RequestTracker.js133984282873399376 0
+79C:\Users\User\OneDrive\Desktop\namaste-react\dist\namaste-react.cb65f72e.js.map133984322767748110 0
 88C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\core\lib\serializer.js133984282883402162 0
 92C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\core\lib\serializerCore.js133984282890231077 0
 94C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\@parcel\core\lib\summarizeRequest.js133984282891557968 0
@@ -3598,5 +3600,5 @@
 69C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\.bin\parcel133984283391441877 0
 73C:\Users\User\OneDrive\Desktop\namaste-react\node_modules\.bin\semver.ps1133984283387453947 0
 75C:\Users\User\OneDrive\Desktop\namaste-react\dist\namaste-react.6bd02f5a.js133984291773967979 0
-76C:\Users\User\OneDrive\Desktop\namaste-react\dist\namaste-react.9e4c6fd2.css133984291773761986 0
-80C:\Users\User\OneDrive\Desktop\namaste-react\dist\namaste-react.9e4c6fd2.css.map133984291776593553 0
+76C:\Users\User\OneDrive\Desktop\namaste-react\dist\namaste-react.9e4c6fd2.css133984322766927859 0
+80C:\Users\User\OneDrive\Desktop\namaste-react\dist\namaste-react.9e4c6fd2.css.map133984322767706790 0
