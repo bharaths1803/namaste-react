@@ -1,9 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const User = (props) => {
   const { name, location } = props;
   const [count, setCount] = useState(0);
   const [count2] = useState(2);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      console.log("Interval");
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className="user-card">
