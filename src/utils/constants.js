@@ -1,1 +1,5 @@
-export const resImage = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/3/5e6f0482-5bb8-42b1-a405-8719e9cbca72_1065004.jpg"
+export const RES_API =
+  "https://www.swiggy.com/dapi/restaurants/list/v5?lat=9.8984328&lng=78.0965691&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+
+export const MENU_API =
+  "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=9.8984328&lng=78.0965691&restaurantId=";
