@@ -3,3 +3,6 @@ export const RES_API =
 
 export const MENU_API =
   "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=9.8984328&lng=78.0965691&restaurantId=";
+
+export const IMG_URL =
+  "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";

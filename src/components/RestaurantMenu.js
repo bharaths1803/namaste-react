@@ -1,46 +1,46 @@
-import { useEffect, useState } from "react";
-import { MENU_API } from "../utils/constants";
 import { useParams } from "react-router-dom";
 import Shimmer from "./Shimmer";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
+import RestaurantCategory from "./RestaurantCategory";
+import { useState } from "react";
 
 const RestaurantMenu = () => {
-  const [resInfo, setResInfo] = useState(null);
   const { resId } = useParams();
 
-  const fetchMenu = async () => {
-    const res = await fetch(MENU_API + resId);
-    const json = await res.json();
-    setResInfo(json.data);
-  };
+  const [showIdx, setShowIdx] = useState(false);
 
-  useEffect(() => {
-    fetchMenu();
-  }, []);
+  const resInfo = useRestaurantMenu(resId);
 
   if (!resInfo) return <Shimmer />;
 
-  const { name, cuisines, costForTwoMessage } = resInfo.cards[2].card.card.info;
+  const { name, cuisines, costForTwoMessage } =
+    resInfo?.cards[2]?.card?.card?.info;
   const { itemCards } =
-    resInfo.cards[4].groupedCard.cardGroupMap.REGULAR.cards[2].card.card;
+    resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
 
-  console.log(itemCards);
+  const categories =
+    resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.filter(
+      (c) =>
+        c.card.card["@type"] ==
+        "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+    );
 
-  console.log(name, cuisines, costForTwoMessage);
+  console.log(categories);
 
   return (
-    <div className="menu">
-      <h1>{name}</h1>
-      <p>
+    <div className="text-center">
+      <h1 className="text-2xl font-bold my-6">{name}</h1>
+      <p className="text-lg font-bold">
         {cuisines.join(", ")} - {costForTwoMessage}
       </p>
-      <h2>Menu</h2>
-      <ul>
-        {itemCards.map((item) => (
-          <li key={item.card.info.id}>
-            {item.card.info.name} - {" Rs. "} {item.card.info.price / 100}
-          </li>
-        ))}
-      </ul>
+      {categories?.map((category, idx) => (
+        <RestaurantCategory
+          data={category.card.card}
+          key={category.card.card.categoryId}
+          setShowIdx={() => setShowIdx(idx)}
+          isVisible={idx === showIdx}
+        />
+      ))}
     </div>
   );
 };
