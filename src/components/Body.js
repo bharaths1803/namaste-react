@@ -49,6 +49,7 @@ const Body = () => {
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
             className="border border-black border-solid"
+            data-testid="searchInput"
           />
           <button
             onClick={() => {
@@ -66,9 +67,9 @@ const Body = () => {
           <button
             onClick={() => {
               const filteredList = listOfRestaurants.filter(
-                (res) => res.info.avgRating >= 4.0
+                (res) => res.info.avgRating >= 4.5
               );
-              setListOfRestaurants(filteredList);
+              setFilteredListOfRestaurants(filteredList);
             }}
             className="bg-gray-100 px-4 py-2 rounded-lg"
           >

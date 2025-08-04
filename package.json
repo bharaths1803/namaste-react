@@ -5,11 +5,13 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "watch-test": "jest --watch"
   },
   "author": "Bharath S",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-react": "^7.27.1",
     "@reduxjs/toolkit": "^2.8.2",
     "@tailwindcss/postcss": "^4.1.11",
     "parcel": "^2.15.4",
@@ -18,5 +20,15 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^6.22.3",
     "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5"
   }
 }
